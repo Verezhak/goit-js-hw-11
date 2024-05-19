@@ -20,7 +20,7 @@ function onSearch(e) {
         return;
     }
 
-    showLoadingIndicator();
+      showLoadingIndicator();
     fetchImg(searchQuery)
         .then(hits => {
             hideLoadingIndicator();
@@ -38,3 +38,4 @@ function onSearch(e) {
 
     form.reset();
 }
+
